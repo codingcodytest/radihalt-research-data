@@ -4,8 +4,15 @@ All material dataset changes are recorded here. Dates use ISO 8601.
 
 ## Unreleased
 
+- Added the four-record RADIHALT Product Identity and Technical Specification
+  Dataset in CSV, JSON, and BibTeX, with a dataset-level `CITATION.cff` and
+  Zenodo deposit metadata.
+- Documented the supplier-confirmed current-production material composition,
+  exact product identifiers, care specification, provenance, and verification
+  boundaries for all four size and color variants.
 - Added permanent Zenodo DOI identifiers to the manifest, release citation
-  files, BibTeX records, and suggested citations for both datasets.
+  files, BibTeX records, and suggested citations for the EMF evidence and phone
+  SAR datasets.
 - Removed the unsupported top-level `publisher` key from all CFF 1.2 files.
 - Clarified that RADIHALT Research publishes the open releases to make EMF
   evidence and phone SAR data easier to inspect, verify, cite, and reuse.

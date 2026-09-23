@@ -2,11 +2,12 @@
 
 Open, versioned research data maintained by [RADIHALT Research](https://radihalt.com/editorial-policy)
 so readers can independently inspect, cite, and reuse the source work behind
-RADIHALT's EMF education.
+RADIHALT's EMF education and product information.
 
 This repository publishes the underlying records for RADIHALT's public EMF
-source directory and phone SAR database. It exists so journalists,
-researchers, educators, developers, and readers can inspect release history,
+source directory, phone SAR database, and product identity and technical
+specification reference. It exists so customers, journalists, researchers,
+educators, retailers, developers, and readers can inspect release history,
 reuse preservation-friendly files, cite a fixed version, and report a
 correction in public.
 
@@ -16,11 +17,12 @@ correction in public.
 | --- | --- | ---: | --- | --- | --- | --- |
 | RADIHALT EMF Evidence Source Index | 2026-09-22 | 23 | CSV, JSON, BibTeX | [10.5281/zenodo.22908519](https://doi.org/10.5281/zenodo.22908519) | [Browse the evidence index](https://radihalt.com/emf-studies) | [`data/emf-evidence-index/v2026-09-22`](data/emf-evidence-index/v2026-09-22) |
 | RADIHALT Phone SAR Dataset | 2026-04-27 | 28 | CSV, JSON, BibTeX | [10.5281/zenodo.22908624](https://doi.org/10.5281/zenodo.22908624) | [Search the SAR database](https://radihalt.com/sar) | [`data/phone-sar/v2026-04-27`](data/phone-sar/v2026-04-27) |
+| RADIHALT Product Identity and Technical Specification Dataset | 2026-09-22 | 4 | CSV, JSON, BibTeX | [10.5281/zenodo.22910494](https://doi.org/10.5281/zenodo.22910494) | [Review the technical specification](https://radihalt.com/product#technical-specification-dataset) | [`data/product-specifications/v2026-09-22`](data/product-specifications/v2026-09-22) |
 
 Each version directory includes its own README and `CITATION.cff`. The
 repository-level [`manifest.json`](manifest.json) lists the canonical landing
-page, current version, record count, license, and release files for both
-datasets. [`SHA256SUMS`](SHA256SUMS) provides integrity hashes.
+page, current version, record count, license, and release files for every
+dataset. [`SHA256SUMS`](SHA256SUMS) provides integrity hashes.
 
 ## What the datasets cover
 
@@ -48,6 +50,21 @@ SAR is a maximum-power compliance measurement. It does not predict a person's
 typical exposure or health outcome. The collection is not an exhaustive live
 catalog of every phone currently sold.
 
+### Product Identity and Technical Specification Dataset
+
+RADIHALT Research publishes this stable four-variant reference so customers,
+retailers, journalists, researchers, and AI systems can identify current
+RADIHALT blankets and mats from a first-party, versioned source. It links each
+size and color to its ASIN, original Amazon seller SKU, UPC/GTIN, construction,
+country of origin, supplier-confirmed material and care specification, and
+product URL.
+
+The current production specification identifies the conductive inner layer as
+60% polyester, 32% copper, and 8% nickel, based on the supplier's July 26, 2026
+clarification. The release distinguishes that supplier-confirmed specification
+from independent finished-product laboratory testing and does not present
+attenuation or health-outcome results.
+
 ## Method, provenance, and corrections
 
 - Read [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for selection, provenance,
@@ -68,6 +85,10 @@ dataset you used. Suggested citations:
 
 > RADIHALT Research. (2026). *RADIHALT Phone SAR Dataset* (Version 2026-04-27)
 > [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22908624
+
+> RADIHALT Research. (2026). *RADIHALT Product Identity and Technical
+> Specification Dataset* (Version 2026-09-22) [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.22910494
 
 ## License
 

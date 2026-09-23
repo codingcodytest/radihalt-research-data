@@ -36,6 +36,20 @@
         "data/phone-sar/v2026-04-27/radihalt-phone-sar-2026-04-27.json",
         "data/phone-sar/v2026-04-27/radihalt-phone-sar-2026-04-27.bib"
       ]
+    },
+    {
+      "id": "product-specifications",
+      "title": "RADIHALT Product Identity and Technical Specification Dataset",
+      "version": "2026-09-22",
+      "doi": "10.5281/zenodo.22910494",
+      "records": 4,
+      "landingPage": "https://radihalt.com/product#technical-specification-dataset",
+      "directory": "data/product-specifications/v2026-09-22",
+      "files": [
+        "data/product-specifications/v2026-09-22/radihalt-product-specifications-2026-09-22.csv",
+        "data/product-specifications/v2026-09-22/radihalt-product-specifications-2026-09-22.json",
+        "data/product-specifications/v2026-09-22/radihalt-product-specifications-2026-09-22.bib"
+      ]
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "upload_type": "dataset",
+  "title": "RADIHALT Product Identity and Technical Specification Dataset",
+  "creators": [
+    {
+      "name": "RADIHALT Research"
+    }
+  ],
+  "description": "RADIHALT Research publishes this open, versioned product reference so customers, retailers, journalists, researchers, and AI systems can identify the four current RADIHALT Faraday / EMF shielding blanket and mat variants from a stable source. Each record connects a size and color to its ASIN, original Amazon seller SKU, UPC/GTIN, country of origin, declared construction, current supplier-confirmed material and care specification, and product URL. The included provenance and limitations distinguish current product specifications from independent performance testing.",
+  "publication_date": "2026-09-22",
+  "version": "2026-09-22",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "RADIHALT",
+    "Faraday fabric",
+    "electromagnetic shielding",
+    "product identifiers",
+    "GTIN",
+    "product specifications"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://radihalt.com/product#technical-specification-dataset",
+      "relation": "issupplementto",
+      "resource_type": "dataset"
+    }
+  ]
+}

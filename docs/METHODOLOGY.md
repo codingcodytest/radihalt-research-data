@@ -86,9 +86,53 @@ ICNIRP values use different averaging methods and should not be compared
 one-to-one. The dataset is not an exhaustive live catalog of phones currently
 sold.
 
+## Product Identity and Technical Specification Dataset
+
+### Purpose
+
+The dataset provides a stable, machine-readable first-party reference for the
+four current RADIHALT Faraday / EMF shielding blanket and mat variants. It is
+designed to reduce ambiguity from copied or conflicting marketplace text and
+make each current size and color directly traceable to its identifiers and
+technical specification.
+
+### Provenance and fields
+
+Variant identity is reconciled across RADIHALT's signed supplier declaration,
+first-party product records, and digitally verified UPC/GTIN artwork. The
+current material composition and care specification reflects the supplier's
+July 26, 2026 clarification and the final production-label wording reviewed
+for this release.
+
+Each record includes:
+
+- stable record identifier and variant label;
+- ASIN, original Amazon seller SKU, UPC/GTIN-12, and GTIN-13;
+- nominal width, length, and color;
+- country of origin, construction, product type, and power status;
+- current material composition and care specification;
+- evidence status and specification effective date; and
+- a product URL and last-reviewed date.
+
+The shared current-production specification identifies the outer textile and
+binding as 100% cotton and the inner Faraday fabric as 60% polyester, 32%
+copper, and 8% nickel. These fields are supplier-confirmed specifications and
+are labeled as such in the release.
+
+### Verification boundaries
+
+Digital UPC/GTIN artwork was decoded and checked for valid check digits. A
+folded-and-sewn physical production-label sample was still pending at the
+version date. Material composition has not been independently verified by
+chemical, fibre-content, conductivity, or nickel-release testing. This dataset
+does not report attenuation, signal-isolation, medical, health-outcome, or
+comparative-performance results; those require separate evidence and test
+methods.
+
 ## Corrections and review
 
-Correction reports are evaluated against primary or authoritative evidence.
+Correction reports are evaluated against primary, authoritative, or applicable
+first-party product evidence.
 When high-quality sources conflict, the conflict and scope are documented
 instead of forcing a false consensus. Accepted material corrections create a
 new version so prior citations remain reproducible.

@@ -11,6 +11,7 @@ body:
       options:
         - RADIHALT EMF Evidence Source Index
         - RADIHALT Phone SAR Dataset
+        - RADIHALT Product Identity and Technical Specification Dataset
     validations:
       required: true
   - type: input
@@ -24,7 +25,7 @@ body:
     id: record
     attributes:
       label: Record and field
-      description: Provide the record ID or phone slug and the exact affected field.
+      description: Provide the exact record identifier and affected field.
     validations:
       required: true
   - type: textarea

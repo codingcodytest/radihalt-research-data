@@ -7,7 +7,7 @@ suggestions. The goal is a useful public record, not a high volume of entries.
 
 Use the **Data correction** issue form and include:
 
-1. the dataset, version, file, record ID or phone slug, and affected field;
+1. the dataset, version, file, record identifier, and affected field;
 2. the current value and proposed value;
 3. a primary or authoritative source URL;
 4. enough detail for another reader to reproduce the finding; and

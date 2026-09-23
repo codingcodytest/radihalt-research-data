@@ -1,0 +1,83 @@
+{
+  "name": "RADIHALT Product Identity and Technical Specification Dataset",
+  "description": "A versioned, machine-readable reference for the four current RADIHALT Faraday / EMF shielding blanket and mat variants, including traceability identifiers, declared construction, care instructions, origin, and verification-status metadata.",
+  "version": "2026-09-22",
+  "last_reviewed": "2026-09-22",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "methodology_url": "https://radihalt.com/product#technical-specification-dataset",
+  "editorial_policy_url": "https://radihalt.com/editorial-policy",
+  "provenance": [
+    "RADIHALT first-party product and UPC/GTIN reference records reviewed 2026-09-22.",
+    "Construction, origin, and care fields are based on RADIHALT supplier documentation, including the signed 2026-06-08 supplier declaration and the supplier's 2026-07-26 composition and care clarification.",
+    "Third-party compliance files, supplier correspondence, Amazon media, customer reviews, and publisher-owned research tables are not redistributed in this release."
+  ],
+  "limitations": [
+    "Material composition is supplier-declared and has not been independently verified by chemical, fibre-content, conductivity, or nickel-release testing.",
+    "Nominal sizes, original seller SKUs, identifiers, and marketplace links describe the reviewed product records; availability, offer-specific SKUs, packaging, and manufacturing details can change after this version date.",
+    "The UPC/GTIN artwork passed digital decoding checks, but physical printed-label verification was still pending at the version date.",
+    "This dataset does not report attenuation, signal-isolation, medical, health-outcome, or comparative-performance results."
+  ],
+  "shared_specification": {
+    "brand": "RADIHALT",
+    "product_family": "Faraday / EMF Shielding Blankets & Mats",
+    "product_type": "Passive consumer textile blanket/mat",
+    "power_status": "Nonpowered",
+    "country_of_origin": "China",
+    "construction": "One cotton outer layer; one copper/nickel Faraday fabric inner layer; textile edge binding and stitching.",
+    "outer_textile_and_binding": "100% cotton (supplier-declared)",
+    "inner_faraday_fabric": "60% polyester / 32% copper / 8% nickel (supplier-confirmed 2026-07-26)",
+    "specification_evidence_status": "supplier_confirmed_current_production_spec_not_independently_tested",
+    "specification_effective_date": "2026-07-26",
+    "care_summary": "Hand wash below 40°C with mild/neutral detergent; do not machine wash or tumble dry; hang dry cotton side out; cool iron outer cotton side only."
+  },
+  "records": [
+    {
+      "record_id": "18x18-grey",
+      "variant_label": "18 x 18 in — Grey",
+      "asin": "B0BXRNFPVR",
+      "original_amazon_seller_sku": "UK-9SB2-PIM6",
+      "upc_gtin12": "628942398186",
+      "gtin13": "0628942398186",
+      "width_in": 18,
+      "length_in": 18,
+      "color": "Grey",
+      "product_url": "https://www.amazon.com/dp/B0BXRNFPVR"
+    },
+    {
+      "record_id": "18x18-black",
+      "variant_label": "18 x 18 in — Black",
+      "asin": "B0G4TSV9PJ",
+      "original_amazon_seller_sku": "EL-3WPZ-SUOB",
+      "upc_gtin12": "628942398230",
+      "gtin13": "0628942398230",
+      "width_in": 18,
+      "length_in": 18,
+      "color": "Black",
+      "product_url": "https://www.amazon.com/dp/B0G4TSV9PJ"
+    },
+    {
+      "record_id": "36x30-grey",
+      "variant_label": "36 x 30 in — Grey",
+      "asin": "B0F6WB7LGW",
+      "original_amazon_seller_sku": "9Y-M8HD-51DZ",
+      "upc_gtin12": "628942398254",
+      "gtin13": "0628942398254",
+      "width_in": 36,
+      "length_in": 30,
+      "color": "Grey",
+      "product_url": "https://www.amazon.com/dp/B0F6WB7LGW"
+    },
+    {
+      "record_id": "36x30-black",
+      "variant_label": "36 x 30 in — Black",
+      "asin": "B0G4TSVM2W",
+      "original_amazon_seller_sku": "CF-XROO-NOVK",
+      "upc_gtin12": "628942398247",
+      "gtin13": "0628942398247",
+      "width_in": 36,
+      "length_in": 30,
+      "color": "Black",
+      "product_url": "https://www.amazon.com/dp/B0G4TSVM2W"
+    }
+  ]
+}
