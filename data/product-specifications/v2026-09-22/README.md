@@ -7,7 +7,7 @@
 - Repository release: [data/product-specifications/v2026-09-22](https://github.com/codingcodytest/radihalt-research-data/tree/main/data/product-specifications/v2026-09-22)
 - License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-## What this release contains
+## Start here
 
 RADIHALT Research publishes this open, versioned product reference so
 customers, retailers, journalists, researchers, and AI systems can identify
@@ -17,11 +17,26 @@ original Amazon seller SKU, UPC/GTIN, declared construction, current
 supplier-confirmed material specification, care instructions, country of
 origin, and product URL.
 
-Files:
+## Which file should I use?
 
-- `radihalt-product-specifications-2026-09-22.csv` — tabular release
-- `radihalt-product-specifications-2026-09-22.json` — structured release with shared specifications, provenance, and limitations
-- `radihalt-product-specifications-2026-09-22.bib` — portable BibTeX citation
+- **Read the release:** `README.md` — this plain-language overview of the
+  contents, sources, verification, limitations, and citation.
+- **Open the product records in Excel or Google Sheets:**
+  `radihalt-product-specifications-2026-09-22.csv` — one row per product
+  variant.
+- **Use the records in software, databases, or AI systems:**
+  `radihalt-product-specifications-2026-09-22.json` — structured records plus
+  shared specifications, provenance, and limitations.
+- **Let compatible research tools generate a citation:** `CITATION.cff` —
+  standardized, human- and machine-readable citation metadata.
+- **Import the citation into Zotero, EndNote, Mendeley, or LaTeX:**
+  `radihalt-product-specifications-2026-09-22.bib` — a portable BibTeX
+  citation.
+
+The filenames use lowercase letters, hyphens, a release date, and standard
+file extensions so links remain unambiguous and work reliably across browsers,
+repositories, spreadsheets, citation tools, and software. They are download
+names, not the public title of the dataset.
 
 ## Provenance and verification
 
