@@ -1,0 +1,64 @@
+name: Data correction
+description: Report a reproducible error in a published dataset release.
+title: "Correction: "
+labels:
+  - data-correction
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - RADIHALT EMF Evidence Source Index
+        - RADIHALT Phone SAR Dataset
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "2026-09-22"
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: Record and field
+      description: Provide the record ID or phone slug and the exact affected field.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary or authoritative source URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Reproduction and verification details
+      description: Explain how another reader can verify the issue and whether it affects other records.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have not included passwords, personal medical information, or other sensitive data.
+          required: true
+        - label: I understand that accepted material corrections are published as a new version rather than silently replacing a cited release.
+          required: true

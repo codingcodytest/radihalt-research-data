@@ -1,0 +1,98 @@
+# Methodology and provenance
+
+This document describes how RADIHALT Research assembles, reviews, and versions
+the datasets in this repository.
+
+## Shared release controls
+
+Every published version is expected to meet these checks:
+
+- CSV and JSON contain the same number of records.
+- Record identifiers are unique and stable within the dataset.
+- Required fields are present and values use the documented units.
+- Public source and RADIHALT guide URLs use HTTPS.
+- Limitations, provenance, license, and a suggested citation are visible.
+- Release files receive SHA-256 integrity hashes.
+- Material data changes create a new version and changelog entry.
+
+The public Git history is an audit trail. It does not replace independent
+verification of an underlying source.
+
+## EMF Evidence Source Index
+
+### Purpose
+
+The index is a discovery tool for comparing the evidence cultures that shape
+EMF guidance and public discussion. It intentionally includes multiple roles:
+
+- mainstream regulators and international guidance bodies;
+- national standards and stricter jurisdictional policies;
+- precautionary resolutions and frameworks;
+- research programs and classifications;
+- physician guidance; and
+- peer-reviewed studies directly relevant to shielding or exposure evidence.
+
+### Selection and fields
+
+A record is selected when it contributes a distinct, useful primary reference
+or evidence role. Each record includes:
+
+- a stable RADIHALT identifier;
+- source name and geographic or institutional origin;
+- publication year;
+- RADIHALT's editorial source-role classification and label;
+- the original citation or reference;
+- a primary or authoritative source URL; and
+- a permanent RADIHALT guide URL.
+
+### Limitations
+
+The index is curated, not systematic. It does not claim complete literature
+coverage, quantify study quality, pool effect sizes, or imply that included
+sources agree. Source-role labels are RADIHALT editorial classifications. A
+source's inclusion is not an endorsement of every conclusion it contains.
+
+## Phone SAR Dataset
+
+### Purpose
+
+The dataset makes a selected group of U.S. phone SAR records easy to compare
+and cite. It covers Apple, Samsung, and Google models released from 2020
+through 2024.
+
+### Provenance and fields
+
+The snapshot was compiled from published RF Safe phone summaries and keyed to
+the FCC IDs included in the dataset. Records should be confirmed in the
+[FCC OET Equipment Authorization Database](https://www.fcc.gov/oet/ea/fccid)
+before they are used for technical, legal, or safety decisions.
+
+Each record includes:
+
+- stable slug;
+- brand and model;
+- release year;
+- head SAR in W/kg;
+- body SAR in W/kg;
+- FCC ID; and
+- a permanent RADIHALT detail-page URL.
+
+### Interpretation limits
+
+SAR is a maximum-power compliance test, not a prediction of typical daily
+exposure or a health-risk score. Real-world exposure varies with signal
+strength, distance, antenna behavior, device configuration, and use. FCC and
+ICNIRP values use different averaging methods and should not be compared
+one-to-one. The dataset is not an exhaustive live catalog of phones currently
+sold.
+
+## Corrections and review
+
+Correction reports are evaluated against primary or authoritative evidence.
+When high-quality sources conflict, the conflict and scope are documented
+instead of forcing a false consensus. Accepted material corrections create a
+new version so prior citations remain reproducible.
+
+Questions and private verification material may be sent to
+support@radihalt.com. Publicly reproducible corrections should use the GitHub
+issue forms so the evidence trail remains visible.

@@ -1,0 +1,27 @@
+{
+  "upload_type": "dataset",
+  "title": "RADIHALT EMF Evidence Source Index",
+  "creators": [
+    {
+      "name": "RADIHALT Research"
+    }
+  ],
+  "description": "A reviewed directory of regulators, national standards, precautionary frameworks, research bodies, classifications, physician guidance, and studies used in RADIHALT's EMF evidence library. The index supplies evidence roles, original references, primary URLs, and permanent RADIHALT guide URLs. It is a curated discovery tool, not a systematic review or medical advice.",
+  "publication_date": "2026-09-22",
+  "version": "2026-09-22",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "EMF evidence",
+    "radiofrequency exposure",
+    "exposure standards",
+    "precautionary policy",
+    "electromagnetic shielding"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://radihalt.com/emf-studies",
+      "relation": "issupplementto",
+      "resource_type": "dataset"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reuse this dataset, please cite it as below."
+title: "RADIHALT EMF Evidence Source Index"
+type: dataset
+version: "2026-09-22"
+date-released: 2026-09-22
+authors:
+  - name: "RADIHALT Research"
+publisher: "RADIHALT"
+license: CC-BY-4.0
+url: "https://radihalt.com/emf-studies"
+abstract: >-
+  A reviewed directory of regulators, national standards, precautionary
+  frameworks, research bodies, classifications, physician guidance, and
+  studies used in RADIHALT's EMF evidence library.
+keywords:
+  - EMF evidence
+  - radiofrequency exposure
+  - exposure standards
+  - precautionary policy
+  - electromagnetic shielding

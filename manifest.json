@@ -1,0 +1,39 @@
+{
+  "name": "RADIHALT Research Data",
+  "publisher": {
+    "name": "RADIHALT Research",
+    "url": "https://radihalt.com/editorial-policy"
+  },
+  "repository": "https://github.com/codingcodytest/radihalt-research-data",
+  "homepage": "https://radihalt.com/media",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "released": "2026-09-22",
+  "datasets": [
+    {
+      "id": "emf-evidence-index",
+      "title": "RADIHALT EMF Evidence Source Index",
+      "version": "2026-09-22",
+      "records": 23,
+      "landingPage": "https://radihalt.com/emf-studies",
+      "directory": "data/emf-evidence-index/v2026-09-22",
+      "files": [
+        "data/emf-evidence-index/v2026-09-22/radihalt-emf-evidence-index-2026-09-22.csv",
+        "data/emf-evidence-index/v2026-09-22/radihalt-emf-evidence-index-2026-09-22.json",
+        "data/emf-evidence-index/v2026-09-22/radihalt-emf-evidence-index-2026-09-22.bib"
+      ]
+    },
+    {
+      "id": "phone-sar",
+      "title": "RADIHALT Phone SAR Dataset",
+      "version": "2026-04-27",
+      "records": 28,
+      "landingPage": "https://radihalt.com/sar",
+      "directory": "data/phone-sar/v2026-04-27",
+      "files": [
+        "data/phone-sar/v2026-04-27/radihalt-phone-sar-2026-04-27.csv",
+        "data/phone-sar/v2026-04-27/radihalt-phone-sar-2026-04-27.json",
+        "data/phone-sar/v2026-04-27/radihalt-phone-sar-2026-04-27.bib"
+      ]
+    }
+  ]
+}

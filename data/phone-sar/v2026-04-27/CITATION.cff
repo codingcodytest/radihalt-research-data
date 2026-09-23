@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you reuse this dataset, please cite it as below."
+title: "RADIHALT Phone SAR Dataset"
+type: dataset
+version: "2026-04-27"
+date-released: 2026-04-27
+authors:
+  - name: "RADIHALT Research"
+publisher: "RADIHALT"
+license: CC-BY-4.0
+url: "https://radihalt.com/sar"
+abstract: >-
+  A reviewed snapshot of U.S. FCC 1-gram head and body SAR values for 28
+  selected Apple, Samsung, and Google phones released from 2020 through 2024.
+keywords:
+  - specific absorption rate
+  - SAR
+  - FCC
+  - mobile phone
+  - RF exposure

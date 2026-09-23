@@ -1,0 +1,9 @@
+{
+  "name": "radihalt-research-data",
+  "version": "2026.9.22",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
+}

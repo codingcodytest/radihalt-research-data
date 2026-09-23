@@ -1,0 +1,62 @@
+name: EMF source proposal
+description: Propose an authoritative source that adds a distinct evidence role or jurisdiction.
+title: "Source proposal: "
+labels:
+  - source-proposal
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary or authoritative URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: citation
+    attributes:
+      label: Citation or official reference
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Proposed evidence role
+      options:
+        - Mainstream regulator or international guidance
+        - National standard or jurisdictional policy
+        - Precautionary resolution or framework
+        - Research program or classification
+        - Physician guidance
+        - Peer-reviewed study
+        - Other materially distinct role
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What does this add?
+      description: Explain the distinct jurisdiction, method, primary finding, or evidence role.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Relevant limitations or conflicts
+      description: Note important scope limits, uncertainty, or conflicts with other high-quality sources.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have not included passwords, personal medical information, or other sensitive data.
+          required: true
+        - label: I understand that inclusion is an editorial decision and does not imply endorsement of every conclusion in a source.
+          required: true

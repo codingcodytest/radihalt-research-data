@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the specific dataset release you used. Dataset-level citation files are included in each version directory."
+title: "RADIHALT Research Data"
+type: dataset
+version: "2026.09.22"
+date-released: 2026-09-22
+authors:
+  - name: "RADIHALT Research"
+    email: "support@radihalt.com"
+publisher: "RADIHALT"
+license: CC-BY-4.0
+url: "https://radihalt.com/media"
+repository-code: "https://github.com/codingcodytest/radihalt-research-data"
+abstract: >-
+  Version-controlled releases of RADIHALT's EMF Evidence Source Index and
+  Phone SAR Dataset, including preservation-friendly data, provenance,
+  limitations, citation metadata, and integrity hashes.
+keywords:
+  - electromagnetic fields
+  - EMF evidence
+  - radiofrequency exposure
+  - specific absorption rate
+  - SAR
+  - FCC
+  - exposure standards
+  - electromagnetic shielding
