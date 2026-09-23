@@ -10,8 +10,10 @@ authors:
 license: CC-BY-4.0
 url: "https://radihalt.com/sar"
 abstract: >-
-  A reviewed snapshot of U.S. FCC 1-gram head and body SAR values for 28
-  selected Apple, Samsung, and Google phones released from 2020 through 2024.
+  RADIHALT Research publishes this open, reviewed snapshot to make U.S. phone
+  SAR data easier to compare, verify, cite, and reuse. It includes FCC 1-gram
+  head and body SAR values for 28 selected Apple, Samsung, and Google phones
+  released from 2020 through 2024.
 keywords:
   - specific absorption rate
   - SAR

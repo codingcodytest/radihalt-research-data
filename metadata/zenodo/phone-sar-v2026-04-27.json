@@ -6,7 +6,7 @@
       "name": "RADIHALT Research"
     }
   ],
-  "description": "U.S. FCC 1-gram head and body Specific Absorption Rate values for 28 selected Apple, Samsung, and Google phones released from 2020 through 2024. Includes model, release year, head SAR, body SAR, FCC ID, and permanent detail-page URL. This is a reviewed snapshot, not a live catalog or a prediction of typical exposure or health risk.",
+  "description": "RADIHALT Research publishes this open, reviewed snapshot to make U.S. phone SAR data easier to compare, verify, cite, and reuse. It includes FCC 1-gram head and body Specific Absorption Rate values for 28 selected Apple, Samsung, and Google phones released from 2020 through 2024, with model, release year, FCC ID, and a permanent RADIHALT detail-page URL. The included methodology defines the dataset's scope; it is not a live catalog or a prediction of typical exposure or health risk.",
   "publication_date": "2026-04-27",
   "version": "2026-04-27",
   "license": "cc-by-4.0",

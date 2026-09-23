@@ -1,6 +1,8 @@
 # RADIHALT Research Data
 
-Open, versioned research data maintained by [RADIHALT Research](https://radihalt.com/editorial-policy).
+Open, versioned research data maintained by [RADIHALT Research](https://radihalt.com/editorial-policy)
+so readers can independently inspect, cite, and reuse the source work behind
+RADIHALT's EMF education.
 
 This repository publishes the underlying records for RADIHALT's public EMF
 source directory and phone SAR database. It exists so journalists,
@@ -24,20 +26,23 @@ datasets. [`SHA256SUMS`](SHA256SUMS) provides integrity hashes.
 
 ### EMF Evidence Source Index
 
-A curated discovery directory spanning regulators, national standards,
-precautionary frameworks, research bodies, classifications, physician
-guidance, and peer-reviewed studies. Every record includes an editorial role,
-original reference, primary-source URL, and permanent RADIHALT guide URL.
+RADIHALT Research maintains this curated discovery directory to make important
+EMF evidence easier to inspect, compare, and cite. It spans regulators,
+national standards, precautionary frameworks, research bodies,
+classifications, physician guidance, and peer-reviewed studies. Every record
+includes an editorial role, original reference, primary-source URL, and
+permanent RADIHALT guide URL.
 
 This is not a systematic review and inclusion does not imply that every source
 agrees with RADIHALT or with every other source.
 
 ### Phone SAR Dataset
 
-A reviewed snapshot of U.S. FCC 1-gram head and body Specific Absorption Rate
-values for selected Apple, Samsung, and Google phones released from 2020
-through 2024. Every record includes the model, release year, head SAR, body
-SAR, FCC ID, and permanent RADIHALT detail-page URL.
+RADIHALT Research publishes this reviewed snapshot to make U.S. FCC phone SAR
+data easier to compare, verify, and cite. It covers 1-gram head and body
+Specific Absorption Rate values for selected Apple, Samsung, and Google phones
+released from 2020 through 2024. Every record includes the model, release year,
+head SAR, body SAR, FCC ID, and permanent RADIHALT detail-page URL.
 
 SAR is a maximum-power compliance measurement. It does not predict a person's
 typical exposure or health outcome. The collection is not an exhaustive live

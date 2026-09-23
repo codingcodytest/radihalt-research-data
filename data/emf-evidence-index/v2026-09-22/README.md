@@ -8,11 +8,12 @@
 
 ## What this release contains
 
-A reviewed directory of regulators, national standards, precautionary
-frameworks, research bodies, classifications, physician guidance, and studies
-used in the RADIHALT EMF evidence library. Each record includes an editorial
-evidence-role label, original reference, primary-source URL, and permanent
-RADIHALT guide URL.
+RADIHALT Research maintains this open, reviewed directory to make the evidence
+behind RADIHALT's EMF education easy to inspect, cite, and reuse. It spans
+regulators, national standards, precautionary frameworks, research bodies,
+classifications, physician guidance, and studies. Each record includes an
+editorial evidence-role label, original reference, primary-source URL, and
+permanent RADIHALT guide URL.
 
 Files:
 
@@ -30,6 +31,9 @@ contains. The release is educational and is not medical advice.
 All 23 primary-source URLs were checked on 2026-09-22. Four retired links were
 replaced with current primary or official records from WHO, Brussels
 Environment, the State of Salzburg, and PubMed.
+
+Publishing the source map, fixed release, and public correction path is part of
+RADIHALT's commitment to transparent, source-led EMF education.
 
 ## Permanent landing page
 

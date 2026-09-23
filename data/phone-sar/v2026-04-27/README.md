@@ -8,10 +8,11 @@
 
 ## What this release contains
 
-A reviewed snapshot of U.S. FCC 1-gram head and body Specific Absorption Rate
-values for 28 selected Apple, Samsung, and Google phones released from 2020
-through 2024. Each record includes the model, release year, head SAR, body SAR,
-FCC ID, and permanent RADIHALT detail-page URL.
+RADIHALT Research publishes this open, reviewed snapshot to make U.S. phone SAR
+data easier to compare, verify, cite, and reuse. It includes FCC 1-gram head and
+body Specific Absorption Rate values for 28 selected Apple, Samsung, and Google
+phones released from 2020 through 2024. Each record includes the model, release
+year, head SAR, body SAR, FCC ID, and permanent RADIHALT detail-page URL.
 
 Files:
 
@@ -29,6 +30,9 @@ catalog of phones currently sold.
 SAR is a maximum-power compliance measurement. It does not predict typical
 daily exposure or health risk. FCC and ICNIRP values use different averaging
 methods and should not be compared one-to-one.
+
+Pairing each value with its FCC identifier and a permanent explanation page is
+part of RADIHALT's commitment to practical, source-checkable EMF education.
 
 ## Permanent landing page
 

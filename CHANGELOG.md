@@ -7,6 +7,8 @@ All material dataset changes are recorded here. Dates use ISO 8601.
 - Added permanent Zenodo DOI identifiers to the manifest, release citation
   files, BibTeX records, and suggested citations for both datasets.
 - Removed the unsupported top-level `publisher` key from all CFF 1.2 files.
+- Clarified that RADIHALT Research publishes the open releases to make EMF
+  evidence and phone SAR data easier to inspect, verify, cite, and reuse.
 
 ## 2026-09-22
 
