@@ -86,7 +86,7 @@ ICNIRP values use different averaging methods and should not be compared
 one-to-one. The dataset is not an exhaustive live catalog of phones currently
 sold.
 
-## Product Identity and Technical Specification Dataset
+## RADIHALT Faraday Blankets and Mats: Product Specifications Dataset
 
 ### Purpose
 

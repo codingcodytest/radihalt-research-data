@@ -1,6 +1,6 @@
 {
-  "name": "RADIHALT Product Identity and Technical Specification Dataset",
-  "description": "A versioned, machine-readable reference for the four current RADIHALT Faraday / EMF shielding blanket and mat variants, including traceability identifiers, declared construction, care instructions, origin, and verification-status metadata.",
+  "name": "RADIHALT Faraday Blankets and Mats: Product Specifications Dataset",
+  "description": "A versioned, machine-readable reference for the four current RADIHALT Faraday blanket and mat variants for electromagnetic-field (EMF) shielding, including traceability identifiers, declared construction, care instructions, origin, and verification-status metadata.",
   "version": "2026-09-22",
   "last_reviewed": "2026-09-22",
   "license": "https://creativecommons.org/licenses/by/4.0/",

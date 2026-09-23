@@ -343,6 +343,18 @@ for (const dataset of manifest.datasets) {
   const zenodoPath = zenodoPaths[dataset.id];
   assert(zenodoPath, `${dataset.id}: missing Zenodo metadata mapping`);
   validateZenodoMetadata(zenodoPath, dataset.title, dataset.version, dataset.landingPage);
+  if (dataset.id === "product-specifications") {
+    const zenodoMetadata = readJson(zenodoPath);
+    assert(
+      zenodoMetadata.related_identifiers?.some(
+        (identifier) =>
+          identifier.identifier === dataset.landingPage &&
+          identifier.relation === "isDescribedBy" &&
+          identifier.resource_type === "other",
+      ),
+      `${dataset.id}: landing page must describe the dataset as an other resource`,
+    );
+  }
 
   totalRecords += dataset.records;
 }

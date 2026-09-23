@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you reuse this dataset, please cite it as below."
-title: "RADIHALT Product Identity and Technical Specification Dataset"
+title: "RADIHALT Faraday Blankets and Mats: Product Specifications Dataset"
 type: dataset
 version: "2026-09-22"
 date-released: 2026-09-22
@@ -11,10 +11,10 @@ license: CC-BY-4.0
 url: "https://radihalt.com/product#technical-specification-dataset"
 abstract: >-
   RADIHALT Research publishes this open, versioned reference for the four
-  current RADIHALT Faraday / EMF shielding blanket and mat variants. It links
-  each size and color to its traceability identifiers, declared construction,
-  current supplier-confirmed material and care specification, origin, and
-  product URL.
+  current RADIHALT Faraday blanket and mat variants for electromagnetic-field
+  (EMF) shielding. It links each size and color to its traceability identifiers,
+  declared construction, current supplier-confirmed material and care
+  specification, origin, and product URL.
 keywords:
   - RADIHALT
   - Faraday fabric

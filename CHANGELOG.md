@@ -4,9 +4,9 @@ All material dataset changes are recorded here. Dates use ISO 8601.
 
 ## Unreleased
 
-- Added the four-record RADIHALT Product Identity and Technical Specification
-  Dataset in CSV, JSON, and BibTeX, with a dataset-level `CITATION.cff` and
-  Zenodo deposit metadata.
+- Added the four-record RADIHALT Faraday Blankets and Mats: Product
+  Specifications Dataset in CSV, JSON, and BibTeX, with a dataset-level
+  `CITATION.cff` and Zenodo deposit metadata.
 - Documented the supplier-confirmed current-production material composition,
   exact product identifiers, care specification, provenance, and verification
   boundaries for all four size and color variants.

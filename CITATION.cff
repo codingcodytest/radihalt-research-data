@@ -12,7 +12,8 @@ url: "https://radihalt.com/media"
 repository-code: "https://github.com/codingcodytest/radihalt-research-data"
 abstract: >-
   Version-controlled releases of RADIHALT's EMF Evidence Source Index, Phone
-  SAR Dataset, and Product Identity and Technical Specification Dataset,
+  SAR Dataset, and RADIHALT Faraday Blankets and Mats: Product Specifications
+  Dataset,
   including preservation-friendly data, provenance, limitations, citation
   metadata, and integrity hashes.
 keywords:

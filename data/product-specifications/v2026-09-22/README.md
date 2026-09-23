@@ -1,4 +1,4 @@
-# RADIHALT Product Identity and Technical Specification Dataset
+# RADIHALT Faraday Blankets and Mats: Product Specifications Dataset
 
 - Version: 2026-09-22
 - Last reviewed: 2026-09-22
@@ -74,8 +74,8 @@ https://radihalt.com/product#technical-specification-dataset
 
 ## Suggested citation
 
-RADIHALT Research. (2026). *RADIHALT Product Identity and Technical
-Specification Dataset* (Version 2026-09-22) [Data set]. Zenodo.
+RADIHALT Research. (2026). *RADIHALT Faraday Blankets and Mats: Product
+Specifications Dataset* (Version 2026-09-22) [Data set]. Zenodo.
 https://doi.org/10.5281/zenodo.22910494
 
 ## Contact
