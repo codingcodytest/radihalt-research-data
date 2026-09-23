@@ -119,6 +119,10 @@ binding as 100% cotton and the inner Faraday fabric as 60% polyester, 32%
 copper, and 8% nickel. These fields are supplier-confirmed specifications and
 are labeled as such in the release.
 
+The JSON release also carries its Zenodo DOI and version-specific repository
+URL so a downloaded copy remains directly identifiable and traceable without
+requiring the repository manifest.
+
 ### Verification boundaries
 
 Digital UPC/GTIN artwork was decoded and checked for valid check digits. A

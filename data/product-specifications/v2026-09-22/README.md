@@ -4,6 +4,7 @@
 - Last reviewed: 2026-09-22
 - Records: 4
 - DOI: [10.5281/zenodo.22910494](https://doi.org/10.5281/zenodo.22910494)
+- Repository release: [data/product-specifications/v2026-09-22](https://github.com/codingcodytest/radihalt-research-data/tree/main/data/product-specifications/v2026-09-22)
 - License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ## What this release contains

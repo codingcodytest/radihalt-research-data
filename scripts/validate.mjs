@@ -236,6 +236,19 @@ for (const dataset of manifest.datasets) {
     assert(new Set(ids).size === ids.length, `${dataset.id}: duplicate record ID`);
     validateUrls(release.records, ["product_url"], dataset.id);
 
+    const releaseKeys = Object.keys(release);
+    const licenseIndex = releaseKeys.indexOf("license");
+    assert(
+      releaseKeys.slice(licenseIndex, licenseIndex + 4).join(",") ===
+        "license,doi,repository_url,methodology_url",
+      `${dataset.id}: release identity fields must follow license in stable order`,
+    );
+    assert(release.doi === dataset.doi, `${dataset.id}: JSON DOI does not match manifest`);
+    assert(
+      release.repository_url === `${manifest.repository}/tree/main/${dataset.directory}`,
+      `${dataset.id}: JSON repository URL does not match release directory`,
+    );
+
     const shared = release.shared_specification;
     assert(shared && typeof shared === "object", `${dataset.id}: missing shared specification`);
     assert(
