@@ -3,6 +3,7 @@
 - Version: 2026-09-22
 - Last reviewed: 2026-09-22
 - Records: 23
+- DOI: [10.5281/zenodo.22908519](https://doi.org/10.5281/zenodo.22908519)
 - License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ## What this release contains
@@ -37,7 +38,7 @@ https://radihalt.com/emf-studies
 ## Suggested citation
 
 RADIHALT Research. (2026). *RADIHALT EMF Evidence Source Index* (Version
-2026-09-22) [Data set]. RADIHALT. https://radihalt.com/emf-studies
+2026-09-22) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22908519
 
 ## Contact
 

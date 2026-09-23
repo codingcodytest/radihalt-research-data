@@ -3,6 +3,7 @@
 - Version: 2026-04-27
 - Last reviewed: 2026-04-27
 - Records: 28
+- DOI: [10.5281/zenodo.22908624](https://doi.org/10.5281/zenodo.22908624)
 - License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ## What this release contains
@@ -36,7 +37,7 @@ https://radihalt.com/sar
 ## Suggested citation
 
 RADIHALT Research. (2026). *RADIHALT Phone SAR Dataset* (Version 2026-04-27)
-[Data set]. RADIHALT. https://radihalt.com/sar
+[Data set]. Zenodo. https://doi.org/10.5281/zenodo.22908624
 
 ## Contact
 

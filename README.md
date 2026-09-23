@@ -10,10 +10,10 @@ correction in public.
 
 ## Current datasets
 
-| Dataset | Version | Records | Formats | Public guide | Release files |
-| --- | --- | ---: | --- | --- | --- |
-| RADIHALT EMF Evidence Source Index | 2026-09-22 | 23 | CSV, JSON, BibTeX | [Browse the evidence index](https://radihalt.com/emf-studies) | [`data/emf-evidence-index/v2026-09-22`](data/emf-evidence-index/v2026-09-22) |
-| RADIHALT Phone SAR Dataset | 2026-04-27 | 28 | CSV, JSON, BibTeX | [Search the SAR database](https://radihalt.com/sar) | [`data/phone-sar/v2026-04-27`](data/phone-sar/v2026-04-27) |
+| Dataset | Version | Records | Formats | DOI | Public guide | Release files |
+| --- | --- | ---: | --- | --- | --- | --- |
+| RADIHALT EMF Evidence Source Index | 2026-09-22 | 23 | CSV, JSON, BibTeX | [10.5281/zenodo.22908519](https://doi.org/10.5281/zenodo.22908519) | [Browse the evidence index](https://radihalt.com/emf-studies) | [`data/emf-evidence-index/v2026-09-22`](data/emf-evidence-index/v2026-09-22) |
+| RADIHALT Phone SAR Dataset | 2026-04-27 | 28 | CSV, JSON, BibTeX | [10.5281/zenodo.22908624](https://doi.org/10.5281/zenodo.22908624) | [Search the SAR database](https://radihalt.com/sar) | [`data/phone-sar/v2026-04-27`](data/phone-sar/v2026-04-27) |
 
 Each version directory includes its own README and `CITATION.cff`. The
 repository-level [`manifest.json`](manifest.json) lists the canonical landing
@@ -59,10 +59,10 @@ Use the `CITATION.cff` or BibTeX file inside the version directory for the
 dataset you used. Suggested citations:
 
 > RADIHALT Research. (2026). *RADIHALT EMF Evidence Source Index* (Version
-> 2026-09-22) [Data set]. RADIHALT. https://radihalt.com/emf-studies
+> 2026-09-22) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22908519
 
 > RADIHALT Research. (2026). *RADIHALT Phone SAR Dataset* (Version 2026-04-27)
-> [Data set]. RADIHALT. https://radihalt.com/sar
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22908624
 
 ## License
 

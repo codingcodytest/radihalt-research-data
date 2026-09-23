@@ -4,9 +4,9 @@ title: "RADIHALT EMF Evidence Source Index"
 type: dataset
 version: "2026-09-22"
 date-released: 2026-09-22
+doi: "10.5281/zenodo.22908519"
 authors:
   - name: "RADIHALT Research"
-publisher: "RADIHALT"
 license: CC-BY-4.0
 url: "https://radihalt.com/emf-studies"
 abstract: >-

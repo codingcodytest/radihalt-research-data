@@ -68,13 +68,17 @@ function validateUrls(records, fields, datasetId) {
   }
 }
 
-function validateCitation(path, title, version) {
+function validateCitation(path, title, version, doi) {
   const citation = readText(path);
   assert(citation.includes("cff-version: 1.2.0"), `${path}: missing CFF 1.2.0 declaration`);
   assert(citation.includes(`title: "${title}"`), `${path}: title does not match release`);
   assert(citation.includes(`version: "${version}"`), `${path}: version does not match release`);
   assert(citation.includes("license: CC-BY-4.0"), `${path}: missing CC BY 4.0 license`);
   assert(citation.includes('name: "RADIHALT Research"'), `${path}: missing organizational creator`);
+  assert(!/^publisher:/m.test(citation), `${path}: publisher is not a valid top-level CFF 1.2 key`);
+  if (doi) {
+    assert(citation.includes(`doi: "${doi}"`), `${path}: DOI does not match manifest`);
+  }
 }
 
 function validateZenodoMetadata(path, title, version, landingPage) {
@@ -105,6 +109,7 @@ let totalRecords = 0;
 for (const dataset of manifest.datasets) {
   assert(/^[a-z0-9-]+$/.test(dataset.id), `${dataset.id}: invalid dataset ID`);
   assert(/^\d{4}-\d{2}-\d{2}$/.test(dataset.version), `${dataset.id}: invalid version`);
+  assert(/^10\.5281\/zenodo\.\d+$/.test(dataset.doi), `${dataset.id}: invalid Zenodo DOI`);
   assert(dataset.landingPage.startsWith("https://radihalt.com/"), `${dataset.id}: unexpected landing page`);
   assert(Array.isArray(dataset.files) && dataset.files.length === 3, `${dataset.id}: expected CSV, JSON, and BibTeX files`);
 
@@ -128,7 +133,9 @@ for (const dataset of manifest.datasets) {
   assert(Array.isArray(release.records), `${dataset.id}: JSON records must be an array`);
   assert(release.records.length === dataset.records, `${dataset.id}: JSON record count does not match manifest`);
   assert(csvRecordCount(csvPath) === dataset.records, `${dataset.id}: CSV record count does not match manifest`);
-  assert(readText(bibPath).startsWith("@dataset{"), `${dataset.id}: BibTeX must use the dataset entry type`);
+  const bibtex = readText(bibPath);
+  assert(bibtex.startsWith("@dataset{"), `${dataset.id}: BibTeX must use the dataset entry type`);
+  assert(bibtex.includes(`doi = {${dataset.doi}}`), `${dataset.id}: BibTeX DOI does not match manifest`);
 
   if (dataset.id === "emf-evidence-index") {
     const ids = release.records.map((record) => record.id);
@@ -154,7 +161,11 @@ for (const dataset of manifest.datasets) {
   const citationPath = `${dataset.directory}/CITATION.cff`;
   const readmePath = `${dataset.directory}/README.md`;
   assert(existsSync(join(ROOT, readmePath)), `${dataset.id}: missing release README`);
-  validateCitation(citationPath, dataset.title, dataset.version);
+  validateCitation(citationPath, dataset.title, dataset.version, dataset.doi);
+  assert(
+    readText(readmePath).includes(`https://doi.org/${dataset.doi}`),
+    `${dataset.id}: release README DOI does not match manifest`,
+  );
 
   const zenodoPath = dataset.id === "emf-evidence-index"
     ? "metadata/zenodo/emf-evidence-index-v2026-09-22.json"

@@ -2,6 +2,12 @@
 
 All material dataset changes are recorded here. Dates use ISO 8601.
 
+## Unreleased
+
+- Added permanent Zenodo DOI identifiers to the manifest, release citation
+  files, BibTeX records, and suggested citations for both datasets.
+- Removed the unsupported top-level `publisher` key from all CFF 1.2 files.
+
 ## 2026-09-22
 
 ### EMF Evidence Source Index v2026-09-22
